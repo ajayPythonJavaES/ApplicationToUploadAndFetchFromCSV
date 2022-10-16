@@ -28,7 +28,7 @@ public class DataFromFile {
 	@Column(name = "codeList")
 	private String codeList;
 
-	@Column(name = "code")
+	@Column(name = "code", unique = true)	
 	private String code;
 
 	@Column(name = "displayValue")
